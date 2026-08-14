@@ -54,8 +54,9 @@
 
             <label for="bio">Sobre você:</label>
             <textarea id="Bio" name="Bio" rows="3"
-            placeholder="Fale um pouco de você..."
-            </textarea>
+            placeholder="Fale um pouco de você...">
+        </textarea>
+            
 
             <label for="Linguagem">linguagem favorita:</label>
             <input type="text" name="linguagem" id="linguagem"
@@ -65,13 +66,30 @@
                 <option value="JavaScript">
                 <option value="Python"></option>
                 <option value="Java>"></option>
-            </datalist>
+            </datalist><br>
+
+            <label for="contato">Contato</label>
+            <address>
+                Email: giovannacarvalho510@gmail.com.br <br>
+                Telefone: (11)92345-5432
+            </address>
+                 </fieldset>
+        <fieldset>  
             
+             <details>
+        <legend>Outras Informações </legend>
+        <summary>O que é um formulário HTML?</summary>
+        <P>Um formulário HTML é utilizado para coletar Informações dos usuários e enviá-las para um servidor.</P>
+             </details>
+
+        <p> O campo <mark>senha</mark> precisa ter pelo menos 6 caracteres</p>
+        <label for="hora-cadrastro">Horário preferido para contato:</label>
+        <input type="time" id="hora-cadrastro" name="hora-cadrastro">
+    </fieldset>
+        <button type="submit">cadrastrar</button>
         
-        </fieldset>
-
-
-        </form>
+    
+    </form>
    
 
 </body>
