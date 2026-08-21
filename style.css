@@ -1,0 +1,56 @@
+body {
+    background-color: #BA845C ;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 18px
+    line-height 1.6;
+}
+
+h1 {
+    color:#F2D0A3;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    color: #F2D0A3;
+    font-size: 28px;
+}
+
+.texto {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.lista {
+    color: rgb(12, 1, 1);
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+
+.link {
+    color: #F2D0A3;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    color: #F2D0A3;
+}
+
+
+ 
