@@ -6,9 +6,10 @@ body {
     line-height 1.6;
 }
 
+
 h1 {
     color:#F2D0A3;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -16,32 +17,89 @@ h1 {
 
 h2 {
     color: #F2D0A3;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .texto {
-    color: rgba(0, 0, 0, 0.9);
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.8;
+    color: #F2D0A3;
+    font-size: 17px;
+    font-weight: arial, sans-serif;
+    line-height: 1.5;
+}
+h3 { 
+    color: #F2D0A3;
 }
 
 img {
-    width: 250px;
+    width: 400px;
     border-radius: 10px;
     margin: 15px 0;
 }
 
 .lista {
-    color: rgb(12, 1, 1);
+    color: #F2D0A3;
     font-size: 17px;
     font-weight: normal;
     line-height: 1.8;
 }
+.personagens {
+    width: 90%;
+    max-width: 1200px;
 
+    margin: 50px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+.card {
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.card h2 {
+    font-size: 21px;
+
+    margin: 15px;
+
+    color: #222;
+}
+
+.card p {
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: #555;
+
+    margin: 0 15px 20px;
+}
 
 .link {
-    color: #F2D0A3;
+    color: #BA845C;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -49,7 +107,7 @@ img {
 
 
 .link:hover {
-    color: #F2D0A3;
+    color: #BA845C;
 }
 
 
